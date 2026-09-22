@@ -1,0 +1,20 @@
+curl -Method DELETE "http://localhost:5000/customer/auth/review/1" -Headers @{Authorization="Bearer $token"}
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"message":"Review deleted successfully","reviews":{}}
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=5
+                    Content-Length: 54
+                    Content-Type: application/json; charset=utf-8
+                    Date: Tue, 22 Sep 2026 11:25:49 GMT
+                    ETag: W/"36-CWIhLFnDDJJNghj92Dyv...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=5], [Content-Length, 54],
+                    [Content-Type, application/json; charset=utf-8]...}
+Images            : {}
+InputFields        : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength : 54
