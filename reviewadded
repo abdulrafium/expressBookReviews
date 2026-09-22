@@ -1,0 +1,24 @@
+
+curl -Method PUT "http://localhost:5000/customer/auth/review/1" -Headers @{Authorization="Bearer $token"} -ContentType "application/json" -Body '{"review":"Excellent book"}'
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"message":"Review added successfully","reviews":{"rafiu1":"Excellent book"}}     
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Keep-Alive: timeout=5
+                    Content-Length: 77
+                    Content-Type: application/json; charset=utf-8
+                    Date: Tue, 22 Sep 2026 11:22:32 GMT
+                    ETag: W/"4d-yRQa8WBkyeOxM9qBOqFf...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Keep-Alive, timeout=5], [Content-Length, 77],
+                    [Content-Type, application/json; charset=utf-8]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 77
+
+
+PS C:\Users\Abdul Rafiu\Desktop\pro\expressBookReviews\final_project>
